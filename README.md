@@ -21,4 +21,25 @@ Android 实现气泡布局
         <attr name="offset" format="dimension" />
     </declare-styleable>
 ~~~
+3.xml中使用，参考[activity_main](https://github.com/wangyiwy/BubbleLayout/blob/master/app/src/main/res/layout/activity_main.xml)
+~~~
+    <me.wy.app.BubbleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        //背景颜色
+        app:background_color="#FF4081"
+        //三角形方向
+        app:direction="left"
+        //三角形相对偏移量
+        app:offset="-40dp"
+        //圆角大小
+        app:radius="4dp"
+        //阴影颜色
+        app:shadow_color="#999999"
+        //阴影大小
+        app:shadow_size="4dp">
 
+        ...
+    </me.wy.app.BubbleLayout>
+~~~
