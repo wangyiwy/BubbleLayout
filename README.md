@@ -26,7 +26,8 @@ Android 实现气泡布局
     <me.wy.app.BubbleLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        //必须设置足够的padding才可以绘制三角形和阴影
+        android:padding="16dp"
         //背景颜色
         app:background_color="#FF4081"
         //三角形方向
